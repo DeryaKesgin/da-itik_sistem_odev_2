@@ -11,7 +11,9 @@ docker compose up --build
 
 ## YouTube Demo
 
- https://youtu.be/Q-SevftCDR0
+https://youtu.be/x0voSrrIMIs?si=IyQKz7ba2pJb_OeX
+https://youtu.be/x0voSrrIMIs
+
 
  Sonuçlar (Temsili Veriler)
 Yöntem	      Düğüm Sayısı	Thread Sayısı	  Toplam Süre (ms)	 Açıklama
