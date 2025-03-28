@@ -1,0 +1,16 @@
+version: '3'
+services:
+  mpi_node:
+    image: mpi_openmp_image
+    build:
+      context: .
+    deploy:
+      replicas: 3
+    stdin_open: true
+    tty: true
+    networks:
+      - mpi_network
+    command: ["mpirun", "--allow-run-as-root", "-np", "3", "./mpi_sum"]
+
+networks:
+  mpi_network:
